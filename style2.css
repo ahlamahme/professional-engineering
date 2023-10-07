@@ -21,6 +21,7 @@
     padding: 20px;
     width: 90%;
     height: 70%;
+    background-color: white;
   }
 
 
@@ -30,7 +31,7 @@
     margin: 100px;
 }
 .my-4{
-    border: 2px solid #FF6A59;
+    border: 2px solid #000064;
     
 }
 .table thead {
@@ -44,7 +45,7 @@
     padding: 10px; /* add some padding */
     text-align: left; /* align the text to the left */
     color: #000; /* set the text color */
-    background-color: #FF6A59;
+    background-color: #000064;
   }
    .table td {
 
@@ -53,7 +54,7 @@
     border: 1px solid black;
  }
  .table td:nth-child(even) {
-    background-color: #FF6A59;
+    
   }
   .table{
 
@@ -62,7 +63,7 @@
     
   }
   .INVOICE{
-    color: #FF6A59;
+    color: #000064;
   }
   .logo-section{
 
@@ -130,7 +131,7 @@ font-weight: normal;
 }
 .thank{
 
-    color: #FF6A59;
+    color: #000064;
     font-size: large;
 }
 .footer{
@@ -169,7 +170,7 @@ font-weight: normal;
     justify-content:flex-end;
     width: 100%;
     height: 50px;
-    background-color: #FF6A59;
+    background-color: #000064;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -187,7 +188,7 @@ position: relative;
   left: 50px;
   }
   .black{
-background-color: #000;
+background-color: #01dc96;
 height: 100%;
 width: 200px;
 clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
