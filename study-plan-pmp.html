@@ -225,105 +225,19 @@
             Sidebar end
         ***********************************-->
 
-        <div class="content-body " style="margin-right: 0 !important;">
-        
-        <div class="container">
-        <div class="content-body " style="min-height: 1053px;">
-            <div class="printable">
-                <!--logo-->
-             <div class="d-flex justify-content-between">
-                <img src="images/8.png" class="logo-abbr" alt="" style="width: 7rem ; height: 8rem;" >	
-                 </a>
-                 
-                    <h1 class="INVOICE mt-5"> INVOICE</h1>
-                 
-             </div>
-              <hr class="my-4">
-             <!--info-->
-             <div class="d-flex justify-content-between">
-                <div class="invoice-to">
-                    <p>Invoice to </p>
-                    <p class="name"> Name:</p>
-                    <hr class="my-5">
-                    <p>
-                        www.eliteminds.co <br>
-                        +962797205176 <br>
-                        info@eliteminds.co<br>
-                    </p>
-                </div>
-                <div class="total-dues">
-                    <p>Total Dutes </p>
-                    <p class="name"> USD$</p>
-                    <hr class="my-5">
-                    <p>
-                        nvoice No. 321456987<br>
-                        Invoice Date: 24-02-2023<br>
-                        Issues Date: 24-02-2023<br>
-                    </p>
-                </div>
-             </div>
-             <!--table-->
-             
-             <table class="table" >
-                <tr>
-                  <th>Descriptions</th>
-                  <th>Price</th>
-                </tr>
-                <tr>
-                  <td>Risk Management Professional (PMI- <br>RMP) Exam Preparation
-                     Workshop: 30 <br> 
-                     Contact Hours for PMI - English</td>
-                  <td>1</td>
-                </tr>
-              </table> 
-            
-             
-              <!--grand total-->
-              
-                
-                <hr class="my-4 ">
-              
-              <div>
-             <div class="row">
-                <div class="col-md-4">
-                     <div class="d-flex justify-content-star">
-                         <i class="far fa-envelope m-2"></i> <!-- Envelope icon -->
-                         <p>info@pls.com.sa</p>
-                    </div>
-                    <div class="d-flex justify-content-star">
-                     <i class="fas fa-phone m-2"></i>
-                        <p>(+966) 53 583 3811</p>
-                    </div>
-               </div> 
-               <div class="col-md-4">
-                <div class="d-flex justify-content-star">
-                 <i class="fas fa-globe m-2"></i>
-                    <p>https://pls.com.sa/</p>
-               </div>
-               <div class="d-flex justify-content-star">
-                 <i class="fas fa-map-marker-alt m-2"></i>
-                   <p>Riyadh saudi arabia</p>
-               </div>
-             </div> 
-             </div> 
-             <div class="decorations w-100 h-2">
-              <div class="white"></div>
-              <div class="black"></div>
-             </div> 
-             </div> 
-
-            
-        </div>
-
-        <div class="row">
-            <div class="col d-flex justify-content-center mt-4">
-              <button onclick="downloadContent()" class="btn btn-primary" type="submit">Download as PDF</button>
-            
+       
+<div class="content-body" style="min-height: 1053px;">
+    <!-- row -->
+    <div class="container-fluid">
+        <div class="uk-grid-collapse" uk-grid="">
+            <div style="width: 100%;">
+                <ul id="video-slider" class="uk-switcher">
+                </ul>
             </div>
-          </div>
         </div>
-        </div>
-        </div>
+
+    </div>
+</div>
         </div>
 	</div>
         <!--**********************************
@@ -360,32 +274,7 @@
         Scripts
     ***********************************-->
     
-    <script>
-        function downloadContent() {
-          var printableElement = document.querySelector(".printable");
     
-          // Create a new jsPDF instance
-          var pdf = new jsPDF();
-    
-          // Set the options for html2canvas
-          var options = {
-            scale: 2, // Increase the scale for better resolution
-            useCORS: true // Enable CORS to handle images from different domains
-          };
-    
-          // Convert the printable element to a canvas object with options
-          html2canvas(printableElement, options).then(function(canvas) {
-            // Get the canvas' data URL as a base64-encoded string
-            var imageData = canvas.toDataURL("image/jpeg", 1.0); // Increase the image quality
-    
-            // Add the image to the PDF document
-            pdf.addImage(imageData, "JPEG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-    
-            // Save the PDF document
-            pdf.save("content.pdf");
-          });
-        }
-      </script>
 
 
 
@@ -422,5 +311,9 @@
 </body>
 
  
+
+
+
+
 
 
