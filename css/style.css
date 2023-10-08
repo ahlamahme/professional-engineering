@@ -80,7 +80,7 @@
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #4CBC9A;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
@@ -2333,19 +2333,19 @@ textarea.form-control-lg {
   border-color: #000064; }
   .btn-primary:hover {
     color: #000;
-    background-color: #ff8072;
-    border-color: #ff796a; }
+    background-color: #4CBC9A;
+    border-color: #4CBC9A; }
   .btn-check:focus + .btn-primary, .btn-primary:focus {
     color: #000;
-    background-color: #ff8072;
-    border-color: #ff796a;
+    background-color: #4CBC9A;
+    border-color: #4CBC9A;
     box-shadow: 0 0 0 0.25rem rgba(217, 90, 76, 0.5); }
   .btn-check:checked + .btn-primary,
   .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
   .show > .btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #ff887a;
-    border-color: #ff796a; }
+    background-color: #4CBC9A;
+    border-color:#4CBC9A; }
     .btn-check:checked + .btn-primary:focus,
     .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
@@ -22020,7 +22020,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #00dc96;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
@@ -22054,7 +22054,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #00dc96;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
@@ -22104,7 +22104,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #00dc96;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
@@ -22171,7 +22171,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #00dc96;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
@@ -31592,7 +31592,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   --primary: #000064;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
-  --primary-hover: #ff3c26;
+  --primary-hover: #00dc96;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
   --rgba-primary-2: rgba(255, 106, 89, 0.2);
