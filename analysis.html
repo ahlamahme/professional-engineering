@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,24 +14,17 @@
 	<meta property="og:description" content="GetSkills  : GetSkills Online Learning  Admin Bootstrap 5 Template" />
 	<meta property="og:image" content="https://getskills.dexignzone.com/xhtml/social-image.png" />
 	<meta name="format-detection" content="telephone=no">
-    
+	
 	<!-- PAGE TITLE HERE -->
-	<title>Print Invoice</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> 
-
-
+	<title>Analysis</title>
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/8.png" />
 	<link href="./vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
 	<link href="./vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 	
 	<!-- Style css -->
-    <link href="style2.css" rel="stylesheet">
+	<link href="style2.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
 	
 </head>
@@ -43,7 +37,7 @@
     ***********************************-->
     <div id="main-wrapper">
 		
-          <!--**********************************
+        <!--**********************************
             Nav header start
         ***********************************-->
         <div class="nav-header">
@@ -127,7 +121,7 @@
         <div class="dlabnav">
             <div class="dlabnav-scroll mm-active ps">
                 <ul class="metismenu mm-show" id="menu">
-                    <li><a  href="javascript:void(0);" aria-expanded="false">
+                    <li><a  href="index.html" aria-expanded="false">
                         <i class="bi bi-grid"></i>
                         <span class="nav-text">Dashboard</span>
                     </a>
@@ -170,7 +164,7 @@
                         </a>
                         <ul aria-expanded="false">
                                 <li>
-                                    <a href="https://pls.com.sa/material/show/6">
+                                    <a href="study-matirial.html">
                                         PMP
                                     </a>
                                 </li>
@@ -187,7 +181,7 @@
                             <span class="nav-text">Invoices</span>
                         </a>
                     </li>
-                    <li><a href="https://pls.com.sa/FAQ" class="" title="FAQ" aria-expanded="false">
+                    <li><a href="faq.html" class="" title="FAQ" aria-expanded="false">
                             <i class="bi bi-patch-question-fill"></i>
                             <span class="nav-text">FAQ</span>
                         </a>
@@ -224,106 +218,184 @@
         <!--**********************************
             Sidebar end
         ***********************************-->
-
-        <div class="content-body " style="margin-right: 0 !important;">
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
         
-        <div class="container">
-        <div class="content-body " style="min-height: 1053px;">
-            <div class="printable">
-                <!--logo-->
-             <div class="d-flex justify-content-between">
-                <img src="images/8.png" class="logo-abbr" alt="" style="width: 7rem ; height: 8rem;" >	
-                 </a>
-                 
-                    <h1 class="INVOICE mt-5"> INVOICE</h1>
-                 
-             </div>
-              <hr class="my-4">
-             <!--info-->
-             <div class="d-flex justify-content-between">
-                <div class="invoice-to">
-                    <p>Invoice to </p>
-                    <p class="name"> Name:</p>
-                    <hr class="my-5">
-                    <p>
-                        www.eliteminds.co <br>
-                        +962797205176 <br>
-                        info@eliteminds.co<br>
-                    </p>
-                </div>
-                <div class="total-dues">
-                    <p>Total Dutes </p>
-                    <p class="name"> USD$</p>
-                    <hr class="my-5">
-                    <p>
-                        nvoice No. 321456987<br>
-                        Invoice Date: 24-02-2023<br>
-                        Issues Date: 24-02-2023<br>
-                    </p>
-                </div>
-             </div>
-             <!--table-->
-             
-             <table class="table" >
-                <tr>
-                  <th>Descriptions</th>
-                  <th>Price</th>
-                </tr>
-                <tr>
-                  <td>Risk Management Professional (PMI- <br>RMP) Exam Preparation
-                     Workshop: 30 <br> 
-                     Contact Hours for PMI - English</td>
-                  <td>1</td>
-                </tr>
-              </table> 
-            
-             
-              <!--grand total-->
-              
-                
-                <hr class="my-4 ">
-              
-              <div>
-             <div class="row">
-                <div class="col-md-4">
-                     <div class="d-flex justify-content-star">
-                         <i class="far fa-envelope m-2"></i> <!-- Envelope icon -->
-                         <p>info@pls.com.sa</p>
-                    </div>
-                    <div class="d-flex justify-content-star">
-                     <i class="fas fa-phone m-2"></i>
-                        <p>(+966) 53 583 3811</p>
-                    </div>
-               </div> 
-               <div class="col-md-4">
-                <div class="d-flex justify-content-star">
-                 <i class="fas fa-globe m-2"></i>
-                    <p>https://pls.com.sa/</p>
-               </div>
-               <div class="d-flex justify-content-star">
-                 <i class="fas fa-map-marker-alt m-2"></i>
-                   <p>Riyadh saudi arabia</p>
-               </div>
-             </div> 
-             </div> 
-             <div class="decorations w-100 h-2">
-              <div class="white"></div>
-              <div class="black"></div>
-             </div> 
-             </div> 
+<div class="content-body" style="min-height: 1053px;">
+    <!-- row -->
+    <div class="container-fluid">
+                            <div class="widget-heading d-flex justify-content-between align-items-center">
+<h3 class="m-0">Quiz Histort</h3>
+</div>
 
-            
-        </div>
+<div class="row">
 
-        <div class="row">
-            <div class="col d-flex justify-content-center mt-4">
-              <button onclick="downloadContent()" class="btn btn-primary" type="submit">Download as PDF</button>
-            
+
+<div class="col-auto">
+<div class="sw-lg-16 sh-1"></div>
+</div>
+<div class="col-xxl-12">
+<div class="row gx-2 px-3">
+    <div class="col-5">
+        <div class="text-muted text-small">Topic</div>
+    </div>
+    <div class="col-2" style="width: 13.66667%;">
+        <div class="text-muted text-small">Overall</div>
+    </div>
+    <div class="col-1">
+        <div class="text-muted text-small">Score</div>
+    </div>
+    <div class="col-2 text-end">
+        <div class="text-muted text-small text-center">Duration</div>
+    </div>
+    <div class="col-2 text-end" style="width: 12.66667%;">
+        <div class="text-muted text-small">User/quiz.time</div>
+    </div>
+    <div class="col-1 text-end">
+        <div class="text-muted text-small"></div>
+    </div>
+</div>
+</div>
+
+<div class="row g-3 mb-5">
+                    <div class="col-sm-6 col-lg-12">
+        <div class="card">
+            <div class="row g-0 h-auto sh-lg-12">
+                <div class="col-12 col-lg p-0 h-100">
+                    <div class="card-body h-100">
+                        <div class="row gx-2 d-flex h-100 align-items-lg-center">
+                            <div class="col-lg-4 mb-2 mb-lg-1">
+                                <a href="https://pls.com.sa/QuizHistory/review/58" class="stretched-link body-link">
+                                    <div class="lh-1-5 mb-0">
+                                                                                            Project Management Framework
+                                                                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-3" style="width: 13.66667%;">
+                                <div class="row gx-2 align-items-center">
+                                    <div class="col-auto d-lg-none">
+                                        <div class="sw-3 sh-4 d-flex justify-content-center align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cs-icon cs-icon-badge text-primary"><path d="M13 11L13.8819 17.1734C13.9258 17.4809 13.9478 17.6347 13.8803 17.7191C13.8518 17.7547 13.8142 17.7819 13.7713 17.7976C13.6699 17.835 13.531 17.7655 13.2532 17.6266L10.3913 16.1957C10.2271 16.1136 10.1451 16.0725 10.0578 16.0624C10.0194 16.0579 9.98059 16.0579 9.94217 16.0624C9.85494 16.0725 9.77286 16.1136 9.60869 16.1957L6.74684 17.6266C6.46901 17.7655 6.3301 17.835 6.22866 17.7976C6.18584 17.7819 6.14815 17.7547 6.11967 17.7191C6.05219 17.6347 6.07416 17.4809 6.11809 17.1734L7 11"></path><circle cx="10" cy="7" r="5"></circle></svg>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="row g-0">
+                                            <div class="col d-lg-none">
+                                                <div class="text-alternate sh-4 d-flex align-items-center lh-1-25">Overall</div>
+                                            </div>
+                                            <div class="col-auto col-lg-12">
+                                                <div class="sh-4 d-flex align-items-center text-alternate justify-content-center">
+                                                                                                                    <b style="color:darkred">Failed</b>
+                                                                                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1" style="width: 12.66667%;">
+                                <div class="row gx-2 align-items-center">
+                                    <div class="col-auto d-lg-none">
+                                        <div class="sw-3 sh-4 d-flex justify-content-center align-items-center" style="color: var(--primary);">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-percent" viewBox="0 0 16 16">
+                                                <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="row g-0">
+                                            <div class="col d-lg-none">
+                                                <div class="text-alternate sh-4 d-flex align-items-center lh-1-25">Score</div>
+                                            </div>
+                                            <div class="col-auto col-lg-12">
+                                                <div class="sh-4 d-flex align-items-center text-alternate justify-content-lg-end">
+                                                    <b>2%</b> Correct
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2" style="width: 13.66667%;">
+                                <div class="row gx-2 align-items-center">
+                                    <div class="col-auto d-lg-none">
+                                        <div class="sw-3 sh-4 d-flex justify-content-center align-items-center" style="color: var(--primary);">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                                                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"></path>
+                                                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="row g-0">
+                                            <div class="col d-lg-none">
+                                                <div class="text-alternate sh-4 d-flex align-items-center lh-1-25">Time</div>
+                                            </div>
+                                            <div class="col-auto col-lg-12">
+                                                <div class="sh-4 d-flex align-items-center text-alternate justify-content-lg-end">
+                                                                                                                0 Hour 0 Min 17 Sec
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2" style="width: 12.66667%;">
+                                <div class="row gx-2 align-items-center">
+                                    <div class="col-auto d-lg-none">
+                                        <div class="sw-3 sh-4 d-flex justify-content-center align-items-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cs-icon cs-icon-clock text-primary"><path d="M8 12L9.70711 10.2929C9.89464 10.1054 10 9.851 10 9.58579V6"></path><circle cx="10" cy="10" r="8"></circle></svg>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="row g-0">
+                                            <div class="col d-lg-none">
+                                                <div class="text-alternate sh-4 d-flex align-items-center lh-1-25">Time</div>
+                                            </div>
+                                            <div class="col-auto col-lg-12">
+                                                <div class="sh-4 d-flex align-items-center text-alternate justify-content-lg-end">
+                                                    1 month ago
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-1" style="width: 13.66667%;">
+                                <div class="row gx-2 align-items-center">
+                                    <div class="col-auto d-lg-none">
+                                        <div class="sw-3 sh-4 d-flex justify-content-center align-items-center" style="color: var(--primary);">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-percent" viewBox="0 0 16 16">
+                                                <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="col col-lg-12">
+                                        <div class="row g-0">
+                                            <div class="col d-lg-none">
+                                                <div class="text-alternate sh-4 d-flex align-items-center lh-1-25">Score</div>
+                                            </div>
+                                            <div class="col-auto col-lg-12">
+                                                <div class="sh-4 d-flex align-items-center text-alternate justify-content-lg-end">
+                                                  <svg height="30px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M447.1,256.2C401.8,204,339.2,144,256,144c-33.6,0-64.4,9.5-96.9,29.8C131.7,191,103.6,215.2,65,255l-1,1l6.7,6.9    C125.8,319.3,173.4,368,256,368c36.5,0,71.9-11.9,108.2-36.4c30.9-20.9,57.2-47.4,78.3-68.8l5.5-5.5L447.1,256.2z M256,160    c33.1,0,64.9,9.5,97.2,30.6c23.9,15.6,47.4,36.7,73.7,66.1C388.6,295.4,331.1,352,256,352c-34.2,0-64.2-8.4-94.2-28.2    c-27.5-18.1-52.3-43.3-76.2-67.8C144.7,196.3,194,160,256,160z"></path><path d="M256,336c44.1,0,80-35.9,80-80c0-44.1-35.9-80-80-80c-44.1,0-80,35.9-80,80C176,300.1,211.9,336,256,336z M256,192.3    c35.2,0,64,28.6,64,63.7c0,35.1-28.8,63.7-64,63.7c-35.2,0-63.9-28.6-63.9-63.7C192.1,220.9,220.8,192.3,256,192.3z"></path></g><path d="M288,256L288,256c0,17.5-14.4,32-31.8,32S224,272.8,224,255.3s15.8-31.3,32-31.3l0-16c-26.5,0-47.9,21.6-47.9,48.2   c0,26.6,21.5,48.1,47.9,48.1s48-21.6,48-48.1V256H288z"></path></g></svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        </div>
-        </div>
+    </div>
+    </div>
+</div>
+
+    </div>
+</div>
         </div>
 	</div>
         <!--**********************************
@@ -359,48 +431,6 @@
     <!--**********************************
         Scripts
     ***********************************-->
-    
-    <script>
-        function downloadContent() {
-          var printableElement = document.querySelector(".printable");
-    
-          // Create a new jsPDF instance
-          var pdf = new jsPDF();
-    
-          // Set the options for html2canvas
-          var options = {
-            scale: 2, // Increase the scale for better resolution
-            useCORS: true // Enable CORS to handle images from different domains
-          };
-    
-          // Convert the printable element to a canvas object with options
-          html2canvas(printableElement, options).then(function(canvas) {
-            // Get the canvas' data URL as a base64-encoded string
-            var imageData = canvas.toDataURL("image/jpeg", 1.0); // Increase the image quality
-    
-            // Add the image to the PDF document
-            pdf.addImage(imageData, "JPEG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-    
-            // Save the PDF document
-            pdf.save("content.pdf");
-          });
-        }
-      </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Required vendors -->
     <script src="./vendor/global/global.min.js"></script>
 	<script src="./vendor/chart.js/Chart.bundle.min.js"></script>
@@ -418,9 +448,21 @@
     <script src="./js/custom.js"></script>
 	<script src="./js/dlabnav-init.js"></script>
 	
-
+    
+	<script>
+		$(function () {
+			$('#datetimepicker').datetimepicker({
+				inline: true,
+			});
+		});
+		
+		$(document).ready(function(){
+			$(".booking-calender .fa.fa-clock-o").removeClass(this);
+			$(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
+		});
+		
+		
+	</script>
 </body>
-
- 
-
+</html>
 

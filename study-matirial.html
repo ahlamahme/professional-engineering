@@ -13,24 +13,17 @@
 	<meta property="og:description" content="GetSkills  : GetSkills Online Learning  Admin Bootstrap 5 Template" />
 	<meta property="og:image" content="https://getskills.dexignzone.com/xhtml/social-image.png" />
 	<meta name="format-detection" content="telephone=no">
-    
+	
 	<!-- PAGE TITLE HERE -->
-	<title>Print Invoice</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> 
-
-
+	<title>Study matiral</title>
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/8.png" />
 	<link href="./vendor/jquery-nice-select/css/nice-select.css" rel="stylesheet">
 	<link href="./vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 	
 	<!-- Style css -->
-    <link href="style2.css" rel="stylesheet">
+	<link href="style2.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
 	
 </head>
@@ -43,7 +36,7 @@
     ***********************************-->
     <div id="main-wrapper">
 		
-          <!--**********************************
+        <!--**********************************
             Nav header start
         ***********************************-->
         <div class="nav-header">
@@ -127,7 +120,7 @@
         <div class="dlabnav">
             <div class="dlabnav-scroll mm-active ps">
                 <ul class="metismenu mm-show" id="menu">
-                    <li><a  href="javascript:void(0);" aria-expanded="false">
+                    <li><a  href="index.html" aria-expanded="false">
                         <i class="bi bi-grid"></i>
                         <span class="nav-text">Dashboard</span>
                     </a>
@@ -150,7 +143,7 @@
                         </a>
                         <ul aria-expanded="false">
                                 <li>
-                                    <a href="https://pls.com.sa/studyPlan/show/6">
+                                    <a href="study-matirial.html">
                                         PMP
                                     </a>
                                 </li>
@@ -158,7 +151,7 @@
                     </li>
                     
                     <li>
-                        <a href="analysis.html" title="Analytics" aria-expanded="false">
+                        <a href="https://pls.com.sa/Quiz_hisory" title="Analytics" aria-expanded="false">
                             <i class="bi bi-bar-chart"></i>
                             <span class="nav-text">Analytics</span>
                         </a>
@@ -176,7 +169,7 @@
                                 </li>
                         </ul>
                     </li>
-                    <li><a href="feedback.html" class="" title="Feedback" aria-expanded="false">
+                    <li><a href="https://pls.com.sa/user/feedback" class="" title="Feedback" aria-expanded="false">
                             <i class="bi bi-star"></i>
                             <span class="nav-text">Feedback</span>
                         </a>
@@ -224,106 +217,64 @@
         <!--**********************************
             Sidebar end
         ***********************************-->
-
-        <div class="content-body " style="margin-right: 0 !important;">
+		
+		<!--**********************************
+            Content body start
+        ***********************************-->
         
-        <div class="container">
-        <div class="content-body " style="min-height: 1053px;">
-            <div class="printable">
-                <!--logo-->
-             <div class="d-flex justify-content-between">
-                <img src="images/8.png" class="logo-abbr" alt="" style="width: 7rem ; height: 8rem;" >	
-                 </a>
-                 
-                    <h1 class="INVOICE mt-5"> INVOICE</h1>
-                 
-             </div>
-              <hr class="my-4">
-             <!--info-->
-             <div class="d-flex justify-content-between">
-                <div class="invoice-to">
-                    <p>Invoice to </p>
-                    <p class="name"> Name:</p>
-                    <hr class="my-5">
-                    <p>
-                        www.eliteminds.co <br>
-                        +962797205176 <br>
-                        info@eliteminds.co<br>
-                    </p>
-                </div>
-                <div class="total-dues">
-                    <p>Total Dutes </p>
-                    <p class="name"> USD$</p>
-                    <hr class="my-5">
-                    <p>
-                        nvoice No. 321456987<br>
-                        Invoice Date: 24-02-2023<br>
-                        Issues Date: 24-02-2023<br>
-                    </p>
-                </div>
-             </div>
-             <!--table-->
-             
-             <table class="table" >
-                <tr>
-                  <th>Descriptions</th>
-                  <th>Price</th>
-                </tr>
-                <tr>
-                  <td>Risk Management Professional (PMI- <br>RMP) Exam Preparation
-                     Workshop: 30 <br> 
-                     Contact Hours for PMI - English</td>
-                  <td>1</td>
-                </tr>
-              </table> 
-            
-             
-              <!--grand total-->
-              
-                
-                <hr class="my-4 ">
-              
-              <div>
-             <div class="row">
-                <div class="col-md-4">
-                     <div class="d-flex justify-content-star">
-                         <i class="far fa-envelope m-2"></i> <!-- Envelope icon -->
-                         <p>info@pls.com.sa</p>
-                    </div>
-                    <div class="d-flex justify-content-star">
-                     <i class="fas fa-phone m-2"></i>
-                        <p>(+966) 53 583 3811</p>
-                    </div>
-               </div> 
-               <div class="col-md-4">
-                <div class="d-flex justify-content-star">
-                 <i class="fas fa-globe m-2"></i>
-                    <p>https://pls.com.sa/</p>
-               </div>
-               <div class="d-flex justify-content-star">
-                 <i class="fas fa-map-marker-alt m-2"></i>
-                   <p>Riyadh saudi arabia</p>
-               </div>
-             </div> 
-             </div> 
-             <div class="decorations w-100 h-2">
-              <div class="white"></div>
-              <div class="black"></div>
-             </div> 
-             </div> 
+<div class="content-body" style="min-height: 1053px;">
+    <!-- row -->
+    <div class="container-fluid">
+                        
 
-            
-        </div>
 
-        <div class="row">
-            <div class="col d-flex justify-content-center mt-4">
-              <button onclick="downloadContent()" class="btn btn-primary" type="submit">Download as PDF</button>
-            
+<div class="widget-heading d-flex justify-content-between align-items-center">
+<h3 class="m-0">PMP | Course Materials</h3>
+</div>
+<div class="row">
+                               <div class="col-xl-6" style="width: 25%;">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="https://pls.com.sa/storage/material/qmp2iTCZJxo4wjoTbYE8jiWgWDE5llWDe7sJl2tV.webp" alt="Card image cap">
+                    <div class="card-header">
+                        <h5 class="card-title">الدليل المعرفي لادارة المشاريع الاحترافية</h5>
+                         <p class="card-text text-dark d-inline">PMP</p>
+                    </div>
+                   
+                    <div class="card-footer d-sm-flex justify-content-between align-items-center">
+                        <div class="card-footer-link mb-4 mb-sm-0">
+                            <p class="card-text text-dark d-inline">3 months ago</p>
+                            
+                        </div>
+
+                        <a href="https://pls.com.sa/material/download/13" class="btn btn-primary"> Download</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        </div>
-        </div>
+                            </div>
+<!--<div class="row">-->
+
+<!--    -->
+<!--        <div class="col-xl-6">-->
+<!--            <div class="card text-white bg-light" style="width: 539px; background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),url(https://pls.com.sa/storage/material/qmp2iTCZJxo4wjoTbYE8jiWgWDE5llWDe7sJl2tV.webp);background-size: cover;">-->
+<!--                <div class="card-header">-->
+<!--                    <h5 class="card-title text-white">الدليل المعرفي لادارة المشاريع الاحترافية</h5>-->
+<!--                </div>-->
+<!--                <div class="card-body mb-0">-->
+<!--                    <p class="card-text">PMP</p>-->
+<!--                    <a href="https://pls.com.sa/material/download/13" class="btn btn-light btn-card text-dark">-->
+<!--                        Download</a>-->
+<!--                </div>-->
+<!--                <div class="card-footer bg-transparent border-0 text-white">3 months ago-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    -->
+
+<!--</div>-->
+
+    </div>
+</div>
         </div>
 	</div>
         <!--**********************************
@@ -359,48 +310,6 @@
     <!--**********************************
         Scripts
     ***********************************-->
-    
-    <script>
-        function downloadContent() {
-          var printableElement = document.querySelector(".printable");
-    
-          // Create a new jsPDF instance
-          var pdf = new jsPDF();
-    
-          // Set the options for html2canvas
-          var options = {
-            scale: 2, // Increase the scale for better resolution
-            useCORS: true // Enable CORS to handle images from different domains
-          };
-    
-          // Convert the printable element to a canvas object with options
-          html2canvas(printableElement, options).then(function(canvas) {
-            // Get the canvas' data URL as a base64-encoded string
-            var imageData = canvas.toDataURL("image/jpeg", 1.0); // Increase the image quality
-    
-            // Add the image to the PDF document
-            pdf.addImage(imageData, "JPEG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
-    
-            // Save the PDF document
-            pdf.save("content.pdf");
-          });
-        }
-      </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Required vendors -->
     <script src="./vendor/global/global.min.js"></script>
 	<script src="./vendor/chart.js/Chart.bundle.min.js"></script>
@@ -418,9 +327,24 @@
     <script src="./js/custom.js"></script>
 	<script src="./js/dlabnav-init.js"></script>
 	
-
+    
+	<script>
+		$(function () {
+			$('#datetimepicker').datetimepicker({
+				inline: true,
+			});
+		});
+		
+		$(document).ready(function(){
+			$(".booking-calender .fa.fa-clock-o").removeClass(this);
+			$(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
+		});
+		
+		
+	</script>
 </body>
+</html>
 
- 
+
 
 
